@@ -1,0 +1,79 @@
+body {
+    width: 98.7%;
+    background-color: rgb(233, 233, 233);
+    font-family: arial;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 6px;
+    margin: 14px;
+    margin-left: 24px;
+}
+
+nav :hover {
+    color: rgb(75, 145, 250);
+}
+
+#current {
+    color: rgb(75, 145, 250);
+}
+
+main {
+}
+
+#banner {
+    background-image: url(graphics/banner.png);
+    text-align: end;
+    margin-top: 10px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 20px;
+}
+
+#banner div h1 {
+    font-size: 48px;
+    margin-right: 24px;
+    color: rgb(75, 145, 250);
+}
+
+#banner div p {
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.divider {
+    color: rgb(75, 145, 250);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+
+.showcase div {
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.showcase div p {
+    background: rgb(75, 145, 250);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
