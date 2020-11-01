@@ -29,9 +29,6 @@ nav :hover {
     color: rgb(75, 145, 250);
 }
 
-main {
-}
-
 #banner {
     background-image: url(graphics/banner.png);
     text-align: end;
