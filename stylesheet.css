@@ -31,6 +31,13 @@ nav :hover {
 
 #banner {
     background-image: url(graphics/banner.png);
+}
+
+#banner2 {
+    background-image: url(graphics/banner2.png);
+}
+
+#banner, #banner2 {
     text-align: end;
     margin-top: 10px;
     padding-top: 120px;
@@ -38,7 +45,7 @@ nav :hover {
     border-radius: 20px;
 }
 
-#banner div h1 {
+#banner h1, #banner2 h1 {
     font-size: 48px;
     margin-right: 24px;
     color: rgb(75, 145, 250);
@@ -47,6 +54,10 @@ nav :hover {
 #banner div p {
     margin-top: -20px;
     margin-right: 20px;
+}
+
+#banner2 h1 {
+    margin-right: 110px;
 }
 
 .divider {
@@ -73,4 +84,14 @@ nav :hover {
     color: white;
     padding: 10px;
     border-radius: 20px;
+}
+
+.inhalt {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.inhalt div {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
