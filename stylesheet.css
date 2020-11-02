@@ -86,12 +86,39 @@ nav :hover {
     border-radius: 20px;
 }
 
-.inhalt {
+.inhalt, .inhalt-center {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.inhalt div {
+.inhalt div, .inhalt-center div {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.inhalt-center {
+    text-align: center;
+}
+
+.inhalt-center div {
+    color: white;
+    background-color: rgb(75, 145, 250);
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 37%;
+    margin-top: 40px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+#foto {
+    border-radius: 100px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
 }
